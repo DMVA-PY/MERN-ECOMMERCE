@@ -1,0 +1,71 @@
+/* GRANDPARENT */ 
+.loginsignup {
+  display: flex;
+  padding-bottom: 60px;
+  background: #fce3fe;
+  padding-top: 60px; /* You can adjust this value based on your design */
+  font: Poppins;
+}
+
+/* FATHER */ 
+.loginsignup-container {
+  background: white;
+  margin: auto;
+  padding: 40px 50px;
+  direction: ltr;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.loginsignup-container span{
+  color: crimson;
+  font-weight: 600;
+}
+
+/* SONS */ 
+.loginsignup-fields {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.loginsignup-fields input{
+  padding: 10px 15px;
+  border: 1px solid gray; /* Border color */
+}
+
+.login-button {
+  margin-bottom: 25px;
+  margin-top: 15px;
+  height: 40px;
+  width: 500px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid gray; /* Border color */
+  color: white; /* Text color */
+  background-color: red; /* Background color */
+  border-radius: 1px; /* Border radius for rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  
+}
+
+.loginsignup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+
+/* Hover Effect */
+.login-button:hover {
+  background-color: orange; /* Hover background color */
+  color: #fff; /* Hover text color */
+  border-color: #3498db; /* Hover border color */
+}

@@ -1,0 +1,71 @@
+.offers {
+    display: flex;
+    margin: auto;
+    padding: 0px 14px;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.offers-left h1{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.offers-left p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.offers-left button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background: #ff4141;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.offers-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .offers {
+        flex-direction: column; /* Change flex-direction to column for smaller screens */
+        align-items: center; /* Center items on smaller screens */
+    }
+
+    .offers-left {
+        align-items: center; /* Center items on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .offers-left button {
+        margin-top: 20px; /* Adjust margin for better spacing on smaller screens */
+    }
+
+    .offers-right {
+        justify-content: center; /* Center content on smaller screens */
+        padding-top: 20px; /* Adjust padding for better spacing on smaller screens */
+    }
+}

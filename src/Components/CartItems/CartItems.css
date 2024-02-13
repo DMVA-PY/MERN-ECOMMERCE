@@ -1,0 +1,124 @@
+
+/* top component */
+
+.cartitems-format {
+    display: flex;
+    align-items: center;
+}
+.cartitems-format img{
+    padding: 0px 20px;
+}
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 120px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.carticon-product-icon{
+    height: 100px;
+}
+
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cartitems-quantity{
+    width: 40px;
+    height: 30px;
+}
+
+
+
+/*  down component*/
+.cartitems-down {
+    display: flex;
+    padding: 0px 50px;
+    margin: 100px 0;
+}
+
+.cartitems-total {
+    flex: 1;
+    margin-right: 100px; /* Adjusted margin for spacing */
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content */
+    padding: 10px 0; /* Reduced padding for a more compact look */
+}
+
+.cartitems-total-item hr {
+    margin: 10px 0; /* Adjusted margin for spacing */
+}
+.cartitems-total h1{
+    display: flex;
+
+}
+.cartitems-total button {
+    display: flex;
+    width: 30%; /* Adjusted button width to fill its container */
+    align-items: left;
+    height: 50px; /* Reduced button height for a sleeker appearance */
+    margin-top: 20px; /* Added margin for spacing */
+    background: #ff5a5a;
+    color: #fff;
+    align-items: center; /* Aligns items vertically to the center */
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px; /* Added border radius for rounded corners */
+}
+
+
+/* promo  */
+.cartitems-promobox {
+    display: flex;
+    background: #eaeaea;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+
+    align-items: center; /* Vertically center the content */
+}
+
+.cartitems-promobox input {
+    flex: 1;
+    background: transparent;
+    width: 330;
+    height: 50px;
+    border: none;
+
+}
+
+.cartitems-promobox button {
+    height: 58px;
+    width: 170px;
+    background: #555;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px; /* Added border radius for rounded corners */
+}
+
+.cartitems-promocode {
+    flex: 1;   
+    font-size: 16px;
+    font-weight: 500;
+}
+
